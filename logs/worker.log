@@ -2499,3 +2499,9 @@ Error in query:
 2023-08-16 10:56:17,985 home-tech4good-new-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='careforme.com', user='Administrator') (careforme.com::scheduled_job::frappe.email.queue.flush)
 2023-08-16 10:56:18,183 home-tech4good-new-frappe-bench:default: Job OK (careforme.com::scheduled_job::frappe.email.queue.flush)
 2023-08-16 10:56:18,184 Result is kept for 600 seconds
+2023-08-16 11:43:38,745 Worker rq:worker:3ba2af29ba374a18892e2aecca91fb63 started with PID 14820, version 1.15.1
+2023-08-16 11:43:38,745 Subscribing to channel rq:pubsub:3ba2af29ba374a18892e2aecca91fb63
+2023-08-16 11:43:38,746 *** Listening on home-tech4good-new-frappe-bench:short, home-tech4good-new-frappe-bench:default, home-tech4good-new-frappe-bench:long...
+2023-08-16 11:43:38,747 Cleaning registries for queue: home-tech4good-new-frappe-bench:short
+2023-08-16 11:43:38,748 Cleaning registries for queue: home-tech4good-new-frappe-bench:default
+2023-08-16 11:43:38,749 Cleaning registries for queue: home-tech4good-new-frappe-bench:long
